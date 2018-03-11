@@ -9,7 +9,7 @@ Steps to run it on debian or MacOS
 4) Now you're done with the installation process
 ```
 
-Example of using this tool (run the below command in terminal
+Example of using this tool (run the below command in terminal)
 ```
 $ wiki "Iron Man"
 ```
