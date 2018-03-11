@@ -3,9 +3,9 @@
 search=$1
 search=`sed 's/ /%20/g' <<< $search`
 inp=`curl -s -H "Accept:application/json" "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&redirects=return&search=$search"`
-length=2
+length=4
 
-echo -e "Top 2 relevant searches\n"
+echo -e "Top 4 relevant searches\n"
 for i in `seq 0 $((length-1))`
 do
     output=`jq --argjson i "$i" '.[1][$i]' <<< $inp`
