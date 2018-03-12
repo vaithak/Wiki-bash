@@ -11,6 +11,7 @@ Steps to run it on debian/MacOS/fedora
 Linux systems as a Final step.
 
 Example of using this tool (run the below command in terminal)
+
 `
 $ wiki "Iron Man"
 `
