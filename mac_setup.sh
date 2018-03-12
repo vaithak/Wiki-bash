@@ -2,7 +2,7 @@
 
 brew install jq
 
-echo "alias wiki='`pwd`/wiki.sh'" >> ~/.bash_profile
+echo -e "\nalias wiki='`pwd`/wiki.sh'" >> ~/.bash_profile
 source ~/.bash_profile
 
 
