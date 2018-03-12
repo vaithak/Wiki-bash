@@ -16,4 +16,4 @@ do
     echo -e "\033[0;32m Wiki Link: \033[0;36m $output\n"
 done
 
-echo -e "\033[0"
+echo -e "\033[0m"
